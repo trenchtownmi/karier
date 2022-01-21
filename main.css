@@ -21,8 +21,6 @@ h1 {
 }
 
 body {
-  visibility: hidden;
-
   background-image: url(./cover.jpg);
 
   background-repeat: no-repeat;
