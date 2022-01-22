@@ -75,8 +75,8 @@ audio {
   margin: 0 auto;
 
   padding: 20px;
-
-  background-image: url(./fonnn.jpg);
+  background-color: #e7e7e7;
+  /* background-image: url(./fonnn.jpg); */
 }
 
 .header {
