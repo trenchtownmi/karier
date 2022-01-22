@@ -87,6 +87,7 @@ audio {
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+  border-bottom: 1px solid #c9c9c9;
 }
 
 .awesome__icon {
