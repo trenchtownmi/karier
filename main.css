@@ -31,11 +31,10 @@ body {
 .icon__linkk {
   transition: 0.2s linear;
   padding: 10px 15px;
+  font-weight: 600;
 }
 
 .icon__linkk:hover {
-  border: #0b1b48 1px solid;
-  border-radius: 30px;
   color: #03091a;
 }
 
