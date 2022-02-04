@@ -212,6 +212,8 @@ span {
   min-width: 300px;
   margin-bottom: 20px;
   margin-left: 20px;
+  object-fit: cover;
+  transition: 0.2s ease-in;
 }
 
 .footer_photo iframe {
@@ -220,6 +222,7 @@ span {
 
 .footer_photo img:hover {
   opacity: 0.9;
+  transform: rotate(2deg);
 }
 
 .footer_photo {
@@ -297,11 +300,12 @@ span {
   max-width: 320px;
   height: 400px;
   margin: 0 auto;
-
+  object-fit: cover;
   transition: 0.2s linear;
 }
 
 .item__photo img:hover {
+  transform: translate(20px, 20px);
 }
 
 .main__column {
