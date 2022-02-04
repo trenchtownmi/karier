@@ -324,6 +324,12 @@ span {
   row-gap: 80px;
 }
 
+@media (max-width: 600px) {
+  .main__items {
+    justify-content: center;
+  }
+}
+
 .item__title {
   text-align: center;
   font-size: 20px;
