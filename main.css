@@ -225,6 +225,7 @@ span {
   min-width: 300px;
   object-fit: cover;
   transition: 0.2s ease-in;
+  margin-bottom: 10px;
 }
 
 .footer_photo img:hover {
@@ -236,7 +237,7 @@ span {
   display: flex;
   flex-wrap: wrap;
   column-gap: 20px;
-  row-gap: 20px;
+  row-gap: 10px;
 }
 
 .footer__content {
@@ -442,8 +443,8 @@ span {
 }
 
 .container_slider_css {
-  max-width: 500px;
-  height: 400px;
+  width: 305px;
+  height: 334px;
   overflow: hidden;
   position: relative;
 }
