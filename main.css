@@ -195,6 +195,19 @@ audio {
 .main__title p {
   font-size: 20px;
 }
+
+@media (max-width: 530px) {
+  .main__title h2 {
+    font-size: 18px;
+  }
+  .main__title p {
+    font-size: 16px;
+  }
+  .main__title {
+    max-width: 400px;
+  }
+}
+
 .darid {
   font-size: 8px;
 }
