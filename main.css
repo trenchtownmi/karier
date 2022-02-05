@@ -223,14 +223,8 @@ span {
 
 .footer_photo img {
   min-width: 300px;
-  margin-bottom: 20px;
-  margin-left: 20px;
   object-fit: cover;
   transition: 0.2s ease-in;
-}
-
-.footer_photo iframe {
-  margin-left: 20px;
 }
 
 .footer_photo img:hover {
@@ -241,6 +235,8 @@ span {
 .footer_photo {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
 }
 
 .footer__content {
