@@ -228,10 +228,31 @@ span {
   margin-bottom: 20px;
 }
 
-.footer_photo img:hover {
-  opacity: 0.9;
-  transform: rotate(2deg);
+.idris-bg {
+  background-image: url(bg-idris.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  max-width: 100%;
 }
+
+.idris-photo {
+  opacity: 0.5;
+}
+
+.footer_photo img:hover {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+@media (max-width: 700px) {
+  .footer_photo img:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .box11 {
   display: flex;
   align-items: center;
