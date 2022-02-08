@@ -241,6 +241,10 @@ span {
   opacity: 0.5;
 }
 
+.narik-gif {
+  width: 250px;
+}
+
 .footer_photo img:hover {
   opacity: 1;
   transform: scale(1.5);
