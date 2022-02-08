@@ -216,6 +216,18 @@ span {
   font-size: 26px;
 }
 
+.gradient-all {
+  font-size: 2em;
+  background: linear-gradient(135deg, #12bcb0 20%, #fabe0e 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  border: 3px solid transparent;
+  border-image: linear-gradient(135deg, #12bcb0 20%, #fabe0e 70%);
+  border-image-slice: 1;
+}
+
 .main__photo img {
   max-width: 300px;
   margin-left: 30px;
