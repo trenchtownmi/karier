@@ -27,6 +27,7 @@
       src="https://vk.com/js/api/openapi.js?169"
       type="text/javascript"
     ></script>
+    <script src="playerjs.js" type="text/javascript"></script>
     <script src="//code-sb1.jivosite.com/widget/xe38w12zt6" async></script>
   </head>
 
@@ -241,6 +242,28 @@
     </header>
     <main class="main">
       <div class="_container">
+        <div id="player"></div>
+
+        <script>
+          var player = new Playerjs({
+            title: "Бомба",
+            id: "player",
+            file: [
+              {
+                title: "KADI feat. Miyagi - Colors",
+                file: "KADI feat. Miyagi - Colors (1).mp3",
+              },
+              {
+                title: "Miyagi - Дом",
+                file: "Miyagi - Дом (1).mp3",
+              },
+              {
+                title: "Miyagi  Andy Panda - Патрон",
+                file: "Miyagi  Andy Panda - Патрон (1).mp3",
+              },
+            ],
+          });
+        </script>
         <!-- <img src="bukin.jpg" alt="#" /> -->
         <div class="main__column">
           <h1 class="marquee">

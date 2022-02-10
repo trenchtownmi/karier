@@ -233,6 +233,9 @@ span {
   margin-left: 30px;
 }
 
+.player {
+  max-width: 500px;
+}
 .footer_photo img {
   min-width: 300px;
   object-fit: cover;
