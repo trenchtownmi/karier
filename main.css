@@ -577,3 +577,56 @@ img:nth-child(4) {
   -moz-animation: scroll 20s infinite linear;
   animation: scroll 20s infinite linear;
 }
+
+.main__items {
+  text-align: center;
+}
+
+.slick-dots {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  background: #4d74ed;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.slick-active button {
+  background-color: #b6b6aa;
+}
+
+.slick-arrow {
+  background: #000;
+  height: 20px;
+  width: 30px;
+  font-size: 0;
+  outline: none;
+  border: none;
+
+  position: absolute;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: 25%;
+  top: 25%;
+}
+.slick-next {
+  position: absolute;
+  right: 25%;
+  top: 25%;
+}
