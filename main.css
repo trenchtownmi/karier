@@ -611,19 +611,30 @@ img:nth-child(4) {
 }
 
 .slick-arrow {
-  background: white;
-
   font-size: 0;
   outline: none;
   border: none;
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 40px;
   cursor: pointer;
   padding-top: 30px;
-  background-image: url(left.svg);
 }
 
 .slick-next {
+  background-image: url(./left.png);
+  background-size: cover;
+  background-position: center;
   position: absolute;
   right: 0;
+}
+
+.slick-next:hover {
+  transform: translateX(10px);
+}
+.slick-prev {
+  background-image: url(./left.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 400px;
+  transform: rotate(180deg);
 }
