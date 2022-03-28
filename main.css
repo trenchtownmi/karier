@@ -580,6 +580,7 @@ img:nth-child(4) {
 
 .main__items {
   text-align: center;
+  position: relative;
 }
 
 .slick-dots {
@@ -610,23 +611,18 @@ img:nth-child(4) {
 }
 
 .slick-arrow {
-  background: #000;
-  height: 20px;
-  width: 30px;
+  background: gray;
+
   font-size: 0;
   outline: none;
   border: none;
 
-  position: absolute;
   cursor: pointer;
+  padding-top: 30px;
 }
 
-.slick-prev {
-  left: 25%;
-  top: 25%;
-}
 .slick-next {
+  background-image: url();
   position: absolute;
-  right: 25%;
-  top: 25%;
+  right: 0;
 }
