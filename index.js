@@ -5,8 +5,8 @@ $(function () {
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 1000,
+    autoplay: false,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1315,
