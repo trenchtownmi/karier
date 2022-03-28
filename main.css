@@ -343,6 +343,13 @@ span {
 }
 
 .item__title {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.item__title img {
+  width: 27px;
+  height: 27px;
 }
 
 .main__item {
@@ -639,4 +646,17 @@ img:nth-child(4) {
   background-position: center;
   margin-right: 230px;
   transform: rotate(180deg);
+}
+
+/* .main--socials {
+  display: inline;
+} */
+
+.socials-inner {
+  margin-top: 5px;
+  display: flex;
+}
+
+.socials-inner a {
+  margin-left: 10px;
 }
