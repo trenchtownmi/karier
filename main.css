@@ -618,6 +618,7 @@ img:nth-child(4) {
   height: 40px;
   cursor: pointer;
   padding-top: 30px;
+  background: transparent;
 }
 
 .slick-next {
@@ -626,6 +627,7 @@ img:nth-child(4) {
   background-position: center;
   position: absolute;
   right: 0;
+  transition: transform 0.2s ease;
 }
 
 .slick-next:hover {
@@ -635,6 +637,6 @@ img:nth-child(4) {
   background-image: url(./left.png);
   background-size: cover;
   background-position: center;
-  margin-right: 400px;
+  margin-right: 230px;
   transform: rotate(180deg);
 }
