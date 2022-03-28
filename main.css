@@ -611,18 +611,19 @@ img:nth-child(4) {
 }
 
 .slick-arrow {
-  background: gray;
+  background: white;
 
   font-size: 0;
   outline: none;
   border: none;
-
+  width: 20px;
+  height: 20px;
   cursor: pointer;
   padding-top: 30px;
+  background-image: url(left.svg);
 }
 
 .slick-next {
-  background-image: url();
   position: absolute;
   right: 0;
 }
