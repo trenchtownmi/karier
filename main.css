@@ -661,3 +661,16 @@ img:nth-child(4) {
 .socials-inner a {
   margin-left: 10px;
 }
+
+.idris-dead {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.idris-dead img{
+  
+  max-width: 100%;
+}
