@@ -663,15 +663,20 @@ img:nth-child(4) {
 }
 
 .idris-dead {
-  max-width: 500px;
   margin: 0 auto;
   margin-top: 50px;
   text-align: center;
   font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.idris-dead img{
-  
+.idris-dead .idryaaa {
   max-width: 100%;
+}
 
+.afdd {
+  transform: scale(-1, 1);
 }
