@@ -75,6 +75,7 @@ audio {
   margin: 0 auto;
 
   padding: 20px;
+
   background-color: #e7e7e7;
   background-image: url(./fonnn.jpg);
 }
@@ -385,14 +386,17 @@ span {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  row-gap: 80px;
 }
 
-@media (max-width: 600px) {
+.main__item {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* @media (max-width: 600px) {
   .main__items {
     justify-content: center;
   }
-}
+} */
 
 .item__title {
   text-align: center;
@@ -645,7 +649,7 @@ img:nth-child(4) {
   background-image: url(./left.png);
   background-size: cover;
   background-position: center;
-  margin-right: 230px;
+
   transform: rotate(180deg);
 }
 
@@ -679,4 +683,26 @@ img:nth-child(4) {
 
 .afdd {
   transform: scale(-1, 1);
+}
+
+@media (max-width: 902px) {
+  .header__nav {
+    display: none;
+  }
+
+  .bob {
+    display: none;
+  }
+  .box11 img {
+    display: none;
+  }
+}
+.footer-cont {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #ececec;
+}
+
+.booter {
+  margin-bottom: 40px;
 }
