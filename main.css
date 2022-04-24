@@ -254,9 +254,9 @@ span {
   max-width: 100%;
 }
 
-.idris-photo {
+/* .idris-photo {
   opacity: 0.5;
-}
+} */
 
 .narik-gif {
   width: 250px;
@@ -350,8 +350,6 @@ span {
 }
 
 .item__title img {
-  width: 27px;
-  height: 27px;
 }
 
 .main__item {
@@ -660,6 +658,7 @@ img:nth-child(4) {
 .socials-inner {
   margin-top: 5px;
   display: flex;
+  align-items: center;
 }
 
 .socials-inner a {
@@ -694,6 +693,17 @@ img:nth-child(4) {
     display: none;
   }
   .box11 img {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .afdd {
+    display: none;
+  }
+  #player {
+    display: none;
+  }
+  .marquee {
     display: none;
   }
 }
