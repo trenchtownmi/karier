@@ -37,3 +37,6 @@ $(function () {
     ],
   });
 });
+$(function () {
+  $(".logo-slider").slick({});
+});
