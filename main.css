@@ -747,3 +747,6 @@ img:nth-child(4) {
 .ryuk {
   max-width: 80%;
 }
+.braaat img {
+  max-width: 100%;
+}
