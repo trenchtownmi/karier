@@ -360,6 +360,9 @@ span {
   .box a {
     font-size: 16px;
   }
+  .idris-dead {
+    font-size: 40px;
+  }
 }
 
 .item__title {
@@ -749,4 +752,8 @@ img:nth-child(4) {
 }
 .braaat img {
   max-width: 100%;
+}
+
+.idris-dead {
+  font-family: 'Courier New', Courier, monospace !important;
 }
