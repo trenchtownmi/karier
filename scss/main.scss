@@ -48,7 +48,7 @@ body {
     color: $primary-color;
     background: $primary-color;
     font-size: 18px;
-    position: relative;
+    // position: relative;
 }
 
 h1,
@@ -173,16 +173,36 @@ a {
         }
     }
 
+    .fa-camera {
+        font-size: 13px;
+    }
+
     .menu {
         position: absolute;
         top: -400px;
         transition: all .5s ease-in;
-        right: 0;
+        right: -10px;
         width: 300px;
-        height: 200px;
+        height: 180px;
         background: $primary-color;
         padding: 10px;
-        padding-top: 55px;
+        text-align: left;
+        z-index: 99;
+
+
+        &__list {
+            // display: flex;
+            // flex-direction: column;
+
+            li {
+
+
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+
+                }
+            }
+        }
 
         ul {
             list-style: none;
@@ -203,7 +223,8 @@ a {
 
     .menu_close {
         position: absolute;
-        right: 10px;
+        right: 16px;
+        top: 48px;
         color: #F3F2EC;
         font-size: 40px;
 
@@ -237,7 +258,7 @@ a {
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        padding-top: 50px;
+        margin-top: 50px;
 
 
         .wellcome__content {
@@ -378,7 +399,7 @@ a {
                         margin: 15px 0 5px 0;
                         // display: inline;
                         max-width: 290px;
-                        height: 400px;
+                        min-height: 400px;
                         // height: 400px;
                         // margin: 0 auto;
                         object-fit: cover;
@@ -489,7 +510,7 @@ a {
     }
 
 
-    .wellcome .wellcome__inner .wellcome__content .wellcome__title{
+    .wellcome .wellcome__inner .wellcome__content .wellcome__title {
         font-size: 45px;
     }
 
@@ -497,6 +518,9 @@ a {
         font-size: 16px;
     }
 
+    .footer__inner {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -510,11 +534,11 @@ a {
         display: none;
     }
 
-    .wellcome .wellcome__inner .wellcome__content .wellcome__title{
+    .wellcome .wellcome__inner .wellcome__content .wellcome__title {
         font-size: 40px;
     }
 
-    .wellcome .wellcome__inner .wellcome__content .wellcome__text{
+    .wellcome .wellcome__inner .wellcome__content .wellcome__text {
         font-size: 18px;
     }
 
