@@ -4121,18 +4121,25 @@ a {
     text-align: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    position: relative; }
+            align-items: center; }
     .gallary__inner .main__slider .slick-arrow {
-      position: absolute;
-      top: 0; }
+      font-size: 0;
+      background: transparent;
+      outline: transparent;
+      border: none;
+      width: 50px;
+      height: 50px;
+      cursor: pointer; }
+      .gallary__inner .main__slider .slick-arrow img {
+        width: 100%; }
+    .gallary__inner .main__slider .slick-prev,
+    .gallary__inner .main__slider .slick-next {
+      top: 50%;
+      position: absolute; }
     .gallary__inner .main__slider .slick-prev {
-      width: 30px;
-      left: -50px; }
-    .gallary__inner .main__slider .slick-prev {
-      position: absolute;
-      width: 30px;
-      right: 0; }
+      left: -90px; }
+    .gallary__inner .main__slider .slick-next {
+      right: -90px; }
     .gallary__inner .main__slider .main__item-inner {
       text-align: center; }
     .gallary__inner .main__slider .main__item-content {

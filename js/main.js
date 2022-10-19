@@ -1,16 +1,25 @@
 $(function () {
     $('.main__slider').slick({
         infinite: true,
-        arrows: false,
+        arrows: true,
         dots: true,
         autoplay: true,
         autoplaySpeed: 1500,
         slidesToShow: 4,
         slidesToScroll: 1,
+        prevArrow: '<button type="button" class="slick-prev"><img src="images/arrow-left.svg" alt="left-arrow"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="images/arrow-right.svg" alt="left-arrow"></button>',
         responsive: [
+            {
+                breakpoint: 1700,
+                settings: {
+                    arrows: false,
+                },
+            },
             {
                 breakpoint: 1330,
                 settings: {
+                    arrows: false,
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
@@ -20,14 +29,14 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 2, arrows: false,
                     slidesToScroll: 1,
                 },
             },
             {
                 breakpoint: 690,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 1, arrows: false,
                     slidesToScroll: 1,
                 },
             },
