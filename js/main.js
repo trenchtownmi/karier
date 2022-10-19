@@ -1,4 +1,5 @@
 $(function () {
+    var mixer = mixitup('.album__content');
     $('.main__slider').slick({
         infinite: true,
         arrows: true,
@@ -63,6 +64,12 @@ $(function () {
         distance: '-100px',
         origin: 'right',
     });
+    ScrollReveal().reveal('.album', {
+        reset: true,
+        // scale: 0.5,
+        distance: '-100px',
+        origin: 'right',
+    });
     ScrollReveal().reveal('.gallary', {
         reset: true,
         // scale: 0.5,
@@ -89,6 +96,7 @@ $(function () {
         $('.menu').removeClass('active');
     });
 })
+
 
 
 // аккордеон

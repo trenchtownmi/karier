@@ -354,7 +354,7 @@ a {
             text-align: center;
 
             align-items: center;
-            
+
 
             .slick-arrow {
                 font-size: 0;
@@ -364,6 +364,7 @@ a {
                 width: 50px;
                 height: 50px;
                 cursor: pointer;
+
                 img {
                     width: 100%;
                 }
@@ -554,4 +555,68 @@ a {
         font-size: 18px;
     }
 
+}
+
+
+
+// ALBUM PAGE
+
+.album {
+    padding: 100px 0;
+}
+
+.container {}
+
+.album__title {}
+
+.album__inner {
+    .album__top {
+        display: flex;
+        justify-content: space-between;
+
+        .album__title {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: $primary-color;
+            -webkit-text-fill-color: transparent;
+            font-size: 40px;
+            font-family: sans-serif;
+        }
+
+        button {
+            border: 2px solid transparent;
+            padding: 5px 10px;
+            font-family: inherit;
+            background: transparent;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all .2s ease-in;
+            border-radius: 10px;
+
+            &:hover{
+                border-color: $hover-color;
+            }
+           
+        }
+        .mixitup-control-active {
+            border-color: $hover-color;
+        }
+    }
+
+
+    .album__content {
+        padding-top: 50px;
+        column-count: 3;
+        margin: 0 auto;
+        text-align: center;
+
+        .album__item {
+            margin-bottom: 20px;
+
+            img {
+                max-width: 400px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
 }

@@ -4235,5 +4235,48 @@ a {
 
   .wellcome .wellcome__inner .wellcome__content .wellcome__text {
     font-size: 18px; } }
+.album {
+  padding: 100px 0; }
+
+.album__inner .album__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .album__inner .album__top .album__title {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #032741;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-family: sans-serif; }
+  .album__inner .album__top button {
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    font-family: inherit;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    border-radius: 10px; }
+    .album__inner .album__top button:hover {
+      border-color: #054d82; }
+  .album__inner .album__top .mixitup-control-active {
+    border-color: #054d82; }
+.album__inner .album__content {
+  padding-top: 50px;
+  -webkit-column-count: 3;
+          column-count: 3;
+  margin: 0 auto;
+  text-align: center; }
+  .album__inner .album__content .album__item {
+    margin-bottom: 20px; }
+    .album__inner .album__content .album__item img {
+      max-width: 400px;
+      width: 100%;
+      -o-object-fit: cover;
+         object-fit: cover; }
 
 /*# sourceMappingURL=main.css.map */
