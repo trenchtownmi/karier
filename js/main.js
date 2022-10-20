@@ -1,5 +1,5 @@
 $(function () {
-    var mixer = mixitup('.album__content');
+    
     $('.main__slider').slick({
         infinite: true,
         arrows: true,
@@ -97,7 +97,7 @@ $(function () {
     });
 })
 
-
+var mixer = mixitup('.album__content');
 
 // аккордеон
 
