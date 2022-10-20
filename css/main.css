@@ -4070,7 +4070,16 @@ a {
     -webkit-text-stroke-color: #032741;
     -webkit-text-fill-color: transparent;
     letter-spacing: 4px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    position: relative; }
+    .wellcome .wellcome__inner .wellcome__content .wellcome__title::after {
+      position: absolute;
+      content: "";
+      background: #032741;
+      width: 100px;
+      height: 2px;
+      left: 0;
+      bottom: -10px; }
   .wellcome .wellcome__inner .wellcome__content .wellcome__text {
     opacity: .6;
     max-width: 500px; }
