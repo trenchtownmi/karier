@@ -8,6 +8,7 @@ $(function () {
         autoplaySpeed: 1500,
         slidesToShow: 4,
         slidesToScroll: 1,
+        // adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="images/arrow-left.svg" alt="left-arrow"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="images/arrow-right.svg" alt="left-arrow"></button>',
         responsive: [
