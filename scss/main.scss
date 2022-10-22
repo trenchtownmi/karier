@@ -273,6 +273,7 @@ a {
                 letter-spacing: 4px;
                 margin-bottom: 20px;
                 position: relative;
+
                 &::after {
                     position: absolute;
                     content: "";
@@ -657,4 +658,76 @@ a {
             flex-direction: column;
         }
     }
+}
+
+// personal
+
+.said-bg {
+    background-image: url(../persons/said/said.png);
+    @media (max-width: 800px) {
+        background-image: none;
+    }
+}
+
+
+.personal__top {
+
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center right;
+    padding: 100px 0 100px;
+
+    .personal__top-inner {
+        max-width: 400px;
+
+        .personal__top-title {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .personal__top-text {
+            line-height: 130%;
+        }
+    }
+}
+
+.personal__content {
+    border-top: 1px solid #000;
+
+    .personal__inner {
+        padding-top: 100px;
+
+        .personal__title {
+            font-size: 40px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .fa-arrow-down {}
+
+        .personal__photos {
+            column-count: 3;
+
+            @media (max-width: 1355px) {
+                column-count: 2;
+                text-align: center;
+            }
+
+            @media (max-width: 920px) {
+                column-count: 1;
+                text-align: center;
+            }
+        }
+
+        .personal__item {
+            max-width: 425px;
+            margin: 0 auto;
+            img {
+                width: 100%;
+                margin-bottom: 35px;
+                object-fit: cover;
+            }
+        }
+    }
+
 }
