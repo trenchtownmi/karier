@@ -4321,6 +4321,13 @@ a {
     .said-bg {
       background-image: none; } }
 
+.shama-bg {
+  background-size: 20% !important;
+  background-image: url(../persons/shama/shama-bg.webp); }
+  @media (max-width: 800px) {
+    .shama-bg {
+      background-image: none; } }
+
 .personal__top {
   background-repeat: no-repeat;
   background-size: 30%;

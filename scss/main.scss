@@ -668,6 +668,15 @@ a {
         background-image: none;
     }
 }
+.shama-bg {
+   background-size: 20% !important;
+    background-image: url(../persons/shama/shama-bg.webp);
+    @media (max-width: 800px) {
+        background-image: none;
+        
+    }
+}
+
 
 
 .personal__top {
