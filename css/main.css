@@ -4315,6 +4315,12 @@ a {
         -ms-flex-direction: column;
             flex-direction: column; } }
 
+.narik-bg {
+  background-image: url(../persons/narik/); }
+  @media (max-width: 800px) {
+    .narik-bg {
+      background-image: none; } }
+
 .said-bg {
   background-image: url(../persons/said/said.png); }
   @media (max-width: 800px) {

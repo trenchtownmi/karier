@@ -662,6 +662,13 @@ a {
 
 // personal
 
+.narik-bg {
+    background-image: url(../persons/narik/);
+    @media (max-width: 800px) {
+        background-image: none;
+    }
+}
+
 .said-bg {
     background-image: url(../persons/said/said.png);
     @media (max-width: 800px) {
