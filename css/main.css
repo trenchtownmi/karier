@@ -4087,6 +4087,9 @@ a {
     max-width: 400px; }
     .wellcome .wellcome__inner .wellcome__img img {
       max-width: 100%; }
+      @media (max-width: 1055px) {
+        .wellcome .wellcome__inner .wellcome__img img {
+          margin-top: 50px; } }
 
 .gallary {
   padding-top: 100px; }

@@ -99,6 +99,7 @@ a {
 
 .container {
     padding: 0 10px;
+
 }
 
 .header {
@@ -109,11 +110,16 @@ a {
 
 
 
+
+
+
     .header__inner {
 
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+
 
         .logo {
             opacity: 0.8;
@@ -253,6 +259,8 @@ a {
 // WELLCOME
 
 .wellcome {
+    
+
     .wellcome__inner {
         display: flex;
         justify-content: space-around;
@@ -297,6 +305,9 @@ a {
 
             img {
                 max-width: 100%;
+                @media (max-width: 1055px) {
+                    margin-top: 50px;
+                }
             }
         }
 
@@ -664,6 +675,7 @@ a {
 
 .narik-bg {
     background-image: url(../persons/narik/);
+
     @media (max-width: 800px) {
         background-image: none;
     }
@@ -671,28 +683,33 @@ a {
 
 .said-bg {
     background-image: url(../persons/said/said.png);
+
     @media (max-width: 800px) {
         background-image: none;
     }
 }
+
 .shama-bg {
-   background-size: 20% !important;
+    background-size: 20% !important;
     background-image: url(../persons/shama/shama-bg.webp);
+
     @media (max-width: 800px) {
         background-image: none;
-        
+
     }
 }
+
 .idrya-bg {
     background-size: 10% !important;
-     background-image: url(../persons/idrya/idrya-bg.webp);
-     @media (max-width: 800px) {
-         background-image: none;
-         
-     }
- }
-      
-     
+    background-image: url(../persons/idrya/idrya-bg.webp);
+
+    @media (max-width: 800px) {
+        background-image: none;
+
+    }
+}
+
+
 
 
 .personal__top {
@@ -747,6 +764,7 @@ a {
         .personal__item {
             max-width: 425px;
             margin: 0 auto;
+
             img {
                 width: 100%;
                 margin-bottom: 35px;
