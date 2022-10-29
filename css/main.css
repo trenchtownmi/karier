@@ -4011,6 +4011,8 @@ a {
       max-width: 70px; }
   .header .fa-camera {
     font-size: 13px; }
+  .header .ww-informers-box-854753 {
+    background: linear-gradient(1deg, #084b72, #032741); }
   .header .menu {
     position: absolute;
     top: -400px;
@@ -4019,7 +4021,7 @@ a {
     right: -10px;
     width: 300px;
     height: 180px;
-    background: #032741;
+    background: linear-gradient(1deg, #084b72, #032741);
     padding: 10px;
     text-align: left;
     z-index: 99; }
