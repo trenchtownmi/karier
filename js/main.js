@@ -1,6 +1,6 @@
 
 $(function () {
-    
+
     window.onload = function () {
         let = preloader = document.getElementById('preloader');
         preloader.style.display = 'none';
@@ -111,6 +111,9 @@ $(function () {
     $('.menu_close').on('click', function () {
         $('.menu').removeClass('active');
     });
+    $('.personal__item').on('click', function () {
+        $('.personal__item img').attr('data-fancybox', '');
+    });
 })
 
 var mixer = mixitup('.album__content');
@@ -126,6 +129,9 @@ $(document).ready(function () {
         $(this).toggleClass('active').next().slideToggle(300);
     });
 });
+
+
+
 
 /* <div class="accordion one">
     <div class="accordion_item">
