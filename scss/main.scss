@@ -1281,12 +1281,13 @@ a {
         .personal__item {
             max-width: 425px;
             margin: 0 auto;
-            cursor: pointer;
+          cursor: pointer;
 
             img {
                 width: 100%;
                 margin-bottom: 35px;
-                object-fit: cover;
+                object-fit: cover;  
+                
             }
         }
     }

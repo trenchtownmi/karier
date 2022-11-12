@@ -4625,7 +4625,8 @@ a {
           text-align: center; } }
     .personal__content .personal__inner .personal__item {
       max-width: 425px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      cursor: pointer; }
       .personal__content .personal__inner .personal__item img {
         width: 100%;
         margin-bottom: 35px;
