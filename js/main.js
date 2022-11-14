@@ -112,7 +112,7 @@ $(function () {
         $('.menu').removeClass('active');
     });
     $('.personal__item').on('click', function () {
-        $('.personal__item img').attr('data-fancybox', '');
+        $('.personal__item img').attr('data-fancybox', 'gallary');
     });
 })
 
