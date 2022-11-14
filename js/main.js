@@ -98,6 +98,12 @@ $(function () {
         distance: '100px',
         origin: 'top',
     });
+    ScrollReveal().reveal('.personal__item', {
+        reset: true,
+        // scale: 0.5,
+        distance: '100px',
+        origin: 'top',
+    });
     ScrollReveal().reveal('.footer', {
         reset: true,
         // scale: 0.5,
