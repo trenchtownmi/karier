@@ -1,7 +1,7 @@
 
 
 
-  
+
 
 $(function () {
 
@@ -17,7 +17,7 @@ $(function () {
 
     $('body,html').animate({ scrollTop: top }, 1500);
   });
-  
+
 
   $('.main__slider').slick({
     infinite: true,
@@ -66,77 +66,84 @@ $(function () {
       // instead of a settings object
     ],
   });
-  var typed = new Typed('#typed',{
+  var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
     typeSpeed: 50,
-   
   });
-  var typed = new Typed('#typed1',{
+  var typed = new Typed('#typed1', {
     stringsElement: '#typed-strings1',
     typeSpeed: 30,
    
   });
- 
-  $('.school').stellar();
-  
-  ScrollReveal().reveal('.header', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'top',
-  });
-  ScrollReveal().reveal('article', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'bottom',
-  });
-  ScrollReveal().reveal('.wellcome', {
-    reset: true,
-    // scale: 0.5,
-    distance: '-100px',
-    origin: 'right',
-  });
-  ScrollReveal().reveal('.album', {
-    reset: true,
-    // scale: 0.5,
-    distance: '-100px',
-    origin: 'right',
-  });
-  ScrollReveal().reveal('.gallary', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'bottom',
-  });
-  ScrollReveal().reveal('.map', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'top',
-  });
-  ScrollReveal().reveal('.personal__item', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'top',
-  });
-  ScrollReveal().reveal('.footer', {
-    reset: true,
-    // scale: 0.5,
-    distance: '-100px',
-    origin: 'right',
-  });
 
-  $('.menu_btn').on('click', function () {
-    $('.menu').addClass('active');
-  });
-  $('.menu_close').on('click', function () {
-    $('.menu').removeClass('active');
-  });
-  $('.personal__item').on('click', function () {
-    $('.personal__item img').attr('data-fancybox', 'gallary');
-  });
+
+$('.menu_btn').on('click', function () {
+  $('.menu').addClass('active');
+});
+$('.menu_close').on('click', function () {
+  $('.menu').removeClass('active');
+});
+$('.personal__item').on('click', function () {
+  $('.personal__item img').attr('data-fancybox', 'gallary');
+});
+
+
+$('.school').stellar();
+
+
+
+
+
+ScrollReveal().reveal('.header', {
+  reset: true,
+  // scale: 0.5,
+  distance: '100px',
+  origin: 'top',
+});
+ScrollReveal().reveal('article', {
+  reset: true,
+  // scale: 0.5,
+  distance: '100px',
+  origin: 'bottom',
+});
+ScrollReveal().reveal('.wellcome', {
+  reset: true,
+  // scale: 0.5,
+  distance: '-100px',
+  origin: 'right',
+});
+ScrollReveal().reveal('.album', {
+  reset: true,
+  // scale: 0.5,
+  distance: '-100px',
+  origin: 'right',
+});
+ScrollReveal().reveal('.gallary', {
+  reset: true,
+  // scale: 0.5,
+  distance: '100px',
+  origin: 'bottom',
+});
+ScrollReveal().reveal('.map', {
+  reset: true,
+  // scale: 0.5,
+  distance: '100px',
+  origin: 'top',
+});
+ScrollReveal().reveal('.personal__item', {
+  reset: true,
+  // scale: 0.5,
+  distance: '100px',
+  origin: 'top',
+});
+ScrollReveal().reveal('.footer', {
+  reset: true,
+  // scale: 0.5,
+  distance: '-100px',
+  origin: 'right',
+});
+
+
  
 })
 
