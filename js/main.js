@@ -71,11 +71,12 @@ $(function () {
     typeSpeed: 50,
    
   });
-  var typed = new Typed('#typed2',{
-    stringsElement: '#typed-strings2',
-    typeSpeed: 50,
+  var typed = new Typed('#typed1',{
+    stringsElement: '#typed-strings1',
+    typeSpeed: 30,
    
   });
+ 
   $('.school').stellar();
   
   ScrollReveal().reveal('.header', {

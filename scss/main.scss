@@ -851,7 +851,7 @@ a {
 
 
         .wellcome__content {
-
+            max-width: 570px;
 
             .wellcome__title {
                 font-family: sans-serif;
@@ -862,6 +862,7 @@ a {
                 letter-spacing: 4px;
                 margin-bottom: 20px;
                 position: relative;
+                display: block;
 
                 &::after {
                     position: absolute;
@@ -1370,5 +1371,9 @@ a {
     background-size: cover;
     background-position: center bottom;
 
-margin: 50px 0;
+    margin: 50px 0;
+}
+
+.typed-cursor{
+    display: none;
 }
