@@ -4648,6 +4648,9 @@ a {
   background-size: cover;
   background-position: center bottom;
   margin: 50px 0; }
+  @media (max-width: 500px) {
+    .school {
+      display: none; } }
 
 .typed-cursor {
   display: none; }

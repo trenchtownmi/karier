@@ -1372,6 +1372,9 @@ a {
     background-position: center bottom;
 
     margin: 50px 0;
+    @media (max-width: 500px) {
+        display: none;
+    }
 }
 
 .typed-cursor{
