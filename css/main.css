@@ -4021,18 +4021,22 @@
   0% {
     -webkit-transform: translateY(0);
             transform: translateY(0); }
-  18%, 22% {
+  18%,
+    22% {
     -webkit-transform: translateY(-68px);
             transform: translateY(-68px); }
-  40%, 100% {
+  40%,
+    100% {
     -webkit-transform: translateY(0);
             transform: translateY(0); } }
 @-webkit-keyframes cssload-dot-move {
   0% {
     -webkit-transform: translateY(0); }
-  18%, 22% {
+  18%,
+    22% {
     -webkit-transform: translateY(-68px); }
-  40%, 100% {
+  40%,
+    100% {
     -webkit-transform: translateY(0); } }
 @keyframes cssload-dot-colors {
   0% {
@@ -4632,5 +4636,14 @@ a {
         margin-bottom: 35px;
         -o-object-fit: cover;
            object-fit: cover; }
+
+.school {
+  background-image: url(../images/school.webp);
+  background-attachment: fixed;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  margin: 50px 0; }
 
 /*# sourceMappingURL=main.css.map */
