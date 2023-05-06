@@ -94,59 +94,59 @@ $(function () {
 
 })
 
-$(function () {
+// $(function () {
   
-  ScrollReveal().reveal('.header', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'top',
-  });
-  ScrollReveal().reveal('article', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'bottom',
-  });
-  ScrollReveal().reveal('.wellcome', {
-    reset: true,
-    // scale: 0.5,
-    distance: '-100px',
-    origin: 'right',
-  });
-  ScrollReveal().reveal('.album', {
-    reset: true,
-    // scale: 0.5,
-    distance: '-100px',
-    origin: 'right',
-  });
-  ScrollReveal().reveal('.gallary', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'bottom',
-  });
-  ScrollReveal().reveal('.map', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'top',
-  });
-  ScrollReveal().reveal('.personal__item', {
-    reset: true,
-    // scale: 0.5,
-    distance: '100px',
-    origin: 'top',
-  });
-  ScrollReveal().reveal('.footer', {
-    reset: true,
-    // scale: 0.5,
-    distance: '-100px',
-    origin: 'right',
-  });
+//   ScrollReveal().reveal('.header', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '100px',
+//     origin: 'top',
+//   });
+//   ScrollReveal().reveal('article', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '100px',
+//     origin: 'bottom',
+//   });
+//   ScrollReveal().reveal('.wellcome', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '-100px',
+//     origin: 'right',
+//   });
+//   ScrollReveal().reveal('.album', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '-100px',
+//     origin: 'right',
+//   });
+//   ScrollReveal().reveal('.gallary', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '100px',
+//     origin: 'bottom',
+//   });
+//   ScrollReveal().reveal('.map', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '100px',
+//     origin: 'top',
+//   });
+//   ScrollReveal().reveal('.personal__item', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '100px',
+//     origin: 'top',
+//   });
+//   ScrollReveal().reveal('.footer', {
+//     reset: true,
+//     // scale: 0.5,
+//     distance: '-100px',
+//     origin: 'right',
+//   });
 
  
-})
+// })
 
 
 var mixer = mixitup('.album__content');
