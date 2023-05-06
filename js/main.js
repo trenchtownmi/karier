@@ -88,12 +88,14 @@ $(function () {
   });
 
 
-   $('.school').stellar();
+  
 
 
 
+})
 
-
+$(function () {
+  
   ScrollReveal().reveal('.header', {
     reset: true,
     // scale: 0.5,
@@ -143,9 +145,9 @@ $(function () {
     origin: 'right',
   });
 
-
-
+ 
 })
+
 
 var mixer = mixitup('.album__content');
 
